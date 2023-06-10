@@ -1,0 +1,50 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --primary: #13293d;
+    --secondary: darkgray;
+    --tertiary: lightblue;
+    --headingText: white;
+  }
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif
+  }
+
+header {
+    padding: 10px;
+    background: var(--primary);
+    color: var(--headingText);
+  }
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: normal;
+    margin: 15px;
+}
+
+header nav {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav a {
+    color: var(--headingText);
+    text-decoration: none;
+    border: solid;
+    border-color: var(--tertiary);
+    border-radius: 5px;
+    padding: 5px;
+}
