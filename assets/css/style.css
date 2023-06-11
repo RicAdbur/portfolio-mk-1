@@ -20,6 +20,8 @@ header {
     color: var(--text);
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
   }
 
 header h1 {
@@ -29,12 +31,12 @@ header h1 {
 }
 
 /* NAV styles begin here */
-header nav {
+.navbar {
     margin: 20px;
     font-size: 20px;
 }
 
-header nav ul {
+.nav-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -53,7 +55,7 @@ nav a {
     border-radius: 5px;
     padding: 5px;
     transition: 250ms ease-out;
-    margin: 20px 20px 0 0;
+    margin: 10px;
 }
 
 /* Hero image styles begin here */
