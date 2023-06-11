@@ -61,7 +61,7 @@ nav a {
 /* Hero image styles begin here */
 .hero {
     background-image: url("../images/space-hero-1.png");
-    height: 600px;
+    height: 500px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -87,3 +87,21 @@ main, footer {
 h2 {
     text-decoration: underline;
 }
+
+footer {
+    margin: 0;
+    padding: 10px;
+    background: var(--primary);
+    color: var(--text);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  footer a {
+    color: var(--text);
+    padding: 5px;
+    margin: 10px;
+  }
