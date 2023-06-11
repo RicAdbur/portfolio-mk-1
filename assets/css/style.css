@@ -8,6 +8,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: Helvetica, Arial, sans-serif;
   }
 
@@ -16,12 +18,11 @@ header {
     padding: 10px;
     background: var(--primary);
     color: var(--text);
-    margin: 0;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
   }
 
 header h1 {
-    display: inline-block;
     font-size: 48px;
     font-weight: normal;
     margin: 5px;
@@ -29,22 +30,18 @@ header h1 {
 
 /* NAV styles begin here */
 header nav {
-    padding-top: 5px;
-    margin-right: 20px;
-    float: right;
+    margin: 20px;
     font-size: 20px;
 }
 
 header nav ul {
-    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
 }
 
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-header nav ul li a:hover {
+nav a:hover {
     box-shadow: 1px 1px 15px 3px var(--tertiary);
 }
 
@@ -56,6 +53,7 @@ nav a {
     border-radius: 5px;
     padding: 5px;
     transition: 250ms ease-out;
+    margin: 20px 20px 0 0;
 }
 
 /* Hero image styles begin here */
@@ -70,6 +68,8 @@ nav a {
 
 .hero img {
     height: 400px;
+    margin: 50px;
+    border-radius: 20px;
 }
 
 body {
