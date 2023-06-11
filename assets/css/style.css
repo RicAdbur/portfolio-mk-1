@@ -1,0 +1,87 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --primary: #13293d;
+    --secondary: rgb(67, 73, 80);
+    --tertiary: lightblue;
+    --text: white;
+  }
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  /* Header styles begin here */
+header {
+    padding: 10px;
+    background: var(--primary);
+    color: var(--text);
+    margin: 0;
+    position: relative;
+  }
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: normal;
+    margin: 5px;
+}
+
+/* NAV styles begin here */
+header nav {
+    padding-top: 5px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header nav ul li a:hover {
+    box-shadow: 1px 1px 15px 3px var(--tertiary);
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    border: solid;
+    border-color: var(--tertiary);
+    border-radius: 5px;
+    padding: 5px;
+    transition: 250ms ease-out;
+}
+
+/* Hero image styles begin here */
+.hero {
+    background-image: url("../images/space-hero-1.png");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero img {
+    height: 400px;
+}
+
+body {
+    background-color: var(--secondary);
+    margin: 0;
+}
+
+main, footer {
+    margin: 10px;
+    color: var(--text);
+}
+
+h2 {
+    text-decoration: underline;
+}
