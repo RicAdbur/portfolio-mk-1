@@ -84,8 +84,39 @@ main, footer {
     color: var(--text);
 }
 
-h2 {
-    text-decoration: underline;
+.title-divider {
+    border-right: 5px solid black;
+    min-height: 100%;
+    text-align: center;
+    padding-right: 20px;
+    min-width: 8%;
+    max-width: 8%;
+}
+
+#about-me {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 10px;
+}
+
+#about-me p {
+    padding-left: 10px;
+    max-width: 700px;
+}
+
+#my-work {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 10px;
+}
+
+.tile {
+    border: solid black;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
 }
 
 footer {
