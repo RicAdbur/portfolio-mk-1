@@ -118,6 +118,7 @@ main, footer {
     display: flex;
     flex-wrap: wrap;
     padding-left: 10px;
+    width: 100%;
 }
 
 .tile-grid {
@@ -126,18 +127,20 @@ main, footer {
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
     grid-template-areas: "double double";
+    width: 75%;
 }
 
 .tile {
     border: solid black;
     height: 200px;
-    width: 400px;
+    width: 100%;
     margin: 10px;
     display: flex;
 }
 
 #project-1 {
     grid-area: double;
+    width: 100%
 }
 
 footer {
