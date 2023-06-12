@@ -9,6 +9,7 @@ This is my first attempt at making a portfolio using the HTML and CSS skills I'v
 - Contact info at the bottom of the page
 - Responsive design using flexbox and media queries
 
+---
 
-ricadbur.github.io/portfolio-mk-1/
+https://ricadbur.github.io/portfolio-mk-1/
 ![Screenshot of webpage](./assets/images/README-screenshot.png)
