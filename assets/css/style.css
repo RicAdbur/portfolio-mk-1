@@ -127,7 +127,7 @@ main, footer {
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
     grid-template-areas: "double double";
-    width: 75%;
+    width: 60%;
 }
 
 .tile {
@@ -159,4 +159,9 @@ footer {
     color: var(--text);
     padding: 5px;
     margin: 10px;
+  }
+
+  footer h3 {
+    font-size: 24px;
+    margin-left: 20px;
   }
