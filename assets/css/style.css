@@ -122,7 +122,6 @@ main, footer {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 #project-1 {
@@ -197,14 +196,14 @@ footer {
     font-size: 24px;
   }
 
-  /* media query for responsiveness */
+  /* media queries for responsiveness */
   @media screen and (max-width: 980px) {
     #project-2, #project-3, #project-4, #project-5 {
         flex-basis: 92%;
     }
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 730px) {
     .section-flexbox {
         display: block;
     }
