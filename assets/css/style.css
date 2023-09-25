@@ -126,11 +126,11 @@ main, footer {
 
 #project-1 {
     flex-basis: 92%;
-    background-image: url("../images/NewsWorldScreenshot.png");
+    background-image: url("../images/drawingGameScreenshot1.png");
 }
 
 #project-2 {
-    background-image: url("../images/tile-2.jpg");
+    background-image: url("../images/NewsWorldScreenshot.png");
 }
 
 #project-3 {
